@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220">
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD24C"/>
+      <stop offset="45%" stop-color="#FF8A3D"/>
+      <stop offset="100%" stop-color="#E8497A"/>
+    </linearGradient>
+    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0E7490"/>
+      <stop offset="100%" stop-color="#0FA3A3"/>
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="110" cy="110" r="96"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="110" cy="110" r="100" fill="#081012" stroke="#FFD24C" stroke-width="4"/>
+  <g clip-path="url(#circleClip)">
+    <circle cx="110" cy="92" r="46" fill="url(#sunset)"/>
+    <path d="M14 150 Q 60 120 110 150 T 206 150 L206 210 L14 210 Z" fill="url(#ocean)"/>
+    <path d="M14 168 Q 60 142 110 168 T 206 168" fill="none" stroke="#DFF6F6" stroke-width="5" stroke-linecap="round" opacity=".85"/>
+    <path d="M14 184 Q 60 160 110 184 T 206 184" fill="none" stroke="#DFF6F6" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+    <g fill="#0a0a0a" opacity=".9">
+      <path d="M46 150 C 44 118 70 96 70 96 C 70 96 60 128 66 150 Z"/>
+      <path d="M46 150 C 36 126 10 118 10 118 C 10 118 32 134 40 150 Z"/>
+      <path d="M46 150 C 56 128 84 122 84 122 C 84 122 60 134 52 150 Z"/>
+      <rect x="44" y="148" width="6" height="14"/>
+    </g>
+  </g>
+  <circle cx="110" cy="110" r="96" fill="none" stroke="#0a0a0a" stroke-width="2" opacity=".4"/>
+
+  <text x="230" y="88" font-family="'Luckiest Guy','Bungee',cursive" font-size="46" fill="#FFD24C" stroke="#0a0a0a" stroke-width="3" paint-order="stroke">MIKE'S</text>
+  <text x="230" y="140" font-family="'Luckiest Guy','Bungee',cursive" font-size="40" fill="#E8497A" stroke="#0a0a0a" stroke-width="3" paint-order="stroke">MOBILE TINTING</text>
+  <text x="230" y="174" font-family="'Dancing Script',cursive" font-size="28" fill="#0FA3A3" font-weight="700">Serving Kaua'i Since 1992</text>
+</svg>
